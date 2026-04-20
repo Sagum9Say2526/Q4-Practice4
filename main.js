@@ -5,4 +5,5 @@ function garageGate () {
     while (carCounter < maxCars) {
         window.alert("Car No. " + carCounter + " is entering");
     }
+    window.alert("The garage is full at " + carCounter + " cars!");
 }
